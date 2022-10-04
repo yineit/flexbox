@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+body {
+  color: #1B1F21;
+  font-size: 14px;
+  background: #e9ecef;
+  letter-spacing: 0.0312rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-large {
+    display: block;
+    font-size: 45px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+.text-medium {
+    display: block;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+   
+  }
+.text-small {
+    display: block;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+  }
+  .text-xsmall {
+    display: block;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #BEC1BB;
+    
+  }
+
+  .button {
+    padding: 0 1rem;
+    height: 2.125rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px #d9d9d9 solid;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    margin: .15625rem;
+    position: relative;
+  }
+  .button-primary {
+    background-color: #A491d2;
+    color: #FFF;
+  }
+  .button-primary:hover {
+    background: #CDC3E6;
+  }
+  .button-primary:focus {
+    background: #BEC1BB;
+    color: #FFF;
+    box-shadow: none;
+ }
+
+ .seccion-contactos {
+
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  flex: 10rem;
+  background-color: #FFF;
+  min-height: 100vh;
+
+ }
+
+ .seccion-principal {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  flex-grow: 8;
+  align-items: center;
+
+ }
+
+ .estado-usuario {
+
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: stretch;
+  border-bottom: solid 1px #BEC1BB;
+
+ }
+
+ .estado-usuario i {
+
+  font-size: 25px;
+  color: #BEC1BB;
+  margin-right: 10px;
+}
+
+ .datos-usuario {
+
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+
+ }
+
+.avatar {
+  
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  margin-right: 10px;
+}
+
+.menu{
+
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.chat {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px #BEC1BB;
+  align-items: center;
+	justify-content: center;
+	height: 10vh
+
+
+}
+
+
+
+ 
